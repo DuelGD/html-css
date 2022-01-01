@@ -1,0 +1,30 @@
+@charset "UTF8";
+
+body{
+    background-color: tomato;
+    width: 700px;
+    height: 700px;
+}
+
+table{
+    background-color: rgb(63, 63, 63);
+    border: 3px solid cyan;
+    color: white;
+}
+form{
+    background-color: white;
+    width: 350px;
+}
+.back{
+    background-color: #008080;
+    color: #F0A202;
+}
+
+div{
+    padding: 5px;
+    padding-bottom: 1px;
+}
+#submit{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}

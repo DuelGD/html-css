@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--bom dia-->
+  <table>
+      <thead>
+        <tr>
+            <td>Nome</td>
+            <td>Email</td>
+            <td>Idade</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>p1</td>
+            <td>pessoas1@gmail.com</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>p2</td>
+            <td>pessoas2@gmail.com</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>p3</td>
+            <td>pessoas3@gmail.com</td>
+            <td>22</td>
+        </tr>
+      </tbody>
+  </table>
+
+   <form action="form.php" method="POST">
+   
+    
+    <div>
+        <label>Primeiro nome</label>
+        <input type="text" class="back">
+    </div>
+
+    <div>
+        <label>Segundo nome</label>
+        <input type="text" class="back">
+    </div>
+
+    <div>
+        <label>email</label>
+        <input type="email" class="back">
+    </div>
+
+    <div>
+        <label>Gênero:</label>
+
+       <select class="back">
+           <option value="masculino">Masculino</option>
+           <option value="feminino">Feminino</option>
+       </select>
+    </div>
+
+    <div>
+        <label>data de nascimento:</label>
+        <input type="date">
+    </div>
+
+    <div>
+        <label>Senha</label>
+        <input type="password" class="back">
+    </div>
+
+    <div>
+        <label>Mensagem</label>
+        <textarea class="back"></textarea>
+    </div>
+    <abbr title="envia as informações acima"><input type="submit" id="submit"></abbr>
+   </form>
+   <div id="voltar">
+       <a href="blog.html">Voltar Para o Blog</a>
+   </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 
+
+https://www.youtube.com/watch?v=VaSr6uixmb0&ab_channel=Origamid
+12:20 continuar daí
+*/
+
+body{
+    background-color: #1b1d20;
+}
+.slide{
+    max-width: 380px;
+    margin: 15px auto;
+}
+.slide-items{
+    position: relative;
+}
+.slide-items > *{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none; /* se alguma imagem levar para outro site, ele não vai funcionar nas outras invisiveis */
+}
+.slide-items > .active{
+    position: relative;
+    opacity: 1;
+    pointer-events: initial;
+}
+.slide img{
+    max-width: 100%;
+    display: block;
+}

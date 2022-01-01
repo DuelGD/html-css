@@ -1,0 +1,98 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-aside{
+    text-align: center;
+}
+.main-aside h2:hover{
+    cursor: alias;
+}
+
+.main-aside ul{
+    list-style: none;
+    padding: 0;
+}
+.main-aside ul a:hover{
+    cursor: pointer;
+}
+
+.box{
+    width: 80%;
+    margin: auto;
+}
+/* Formulários */
+.main-form{
+    padding-left: 10px;
+}
+.main-form > .form-group{
+    padding-bottom: 10px;
+}
+.main-form > .form-group > input{
+    width: 100%;
+}
+.main-form > .form-group > label{
+    display: block;
+}
+.submit{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#main-navebar{
+    background-color: #333;
+    color: mediumslateblue;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.box-relative{
+    position: relative;
+    height: 700px;
+    border: 3px solid aqua;
+
+}
+.box-relative > .absolute{
+    position: absolute;
+    border: 3px solid #333;
+    bottom: 60%;
+    left: 45%;
+}
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(39, 39, 39);
+    color: rgb(182, 182, 182);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.chat:active{
+    background-color: black;
+    color: cyan;
+}
+
+.lista ul{
+    list-style: none;
+}
+
+.lista ul li:first-child{
+    color: rgb(212, 0, 255);
+}
+.lista ul li:last-child{
+    color: deepskyblue;
+}
+.lista > ul > li:nth-child(3) {
+    color: indigo;
+}
