@@ -1,0 +1,1 @@
+Diminua o tamanho da tela para pelo menos 600px de largura
